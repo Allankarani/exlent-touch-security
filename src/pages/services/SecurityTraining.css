@@ -1,0 +1,323 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  .secuirty-training-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Hero Section with Red Geometric Overlay */
+  .training-hero {
+    position: relative;
+    background: linear-gradient(135deg, #001f3f 50%, #8b0000 50%);
+    text-align: center;
+    color: #fff;
+    padding: 60px 20px;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .training-hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .training-hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* CTA Button - Reused in Multiple Sections */
+  .cta-button {
+    background-color: #b71c1c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #880e4f;
+  }
+  
+  /* Geometric Pattern Overlay */
+  
+  
+  /* Accreditation Banner */
+  .accreditation-banner {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .accreditation-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .accreditation-content .badge {
+    background-color: #b71c1c;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+  }
+  
+  /* Core Courses Section */
+  .core-courses {
+    padding: 40px 20px;
+  }
+  
+  .core-courses .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .core-courses h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #b71c1c;
+    margin-bottom: 30px;
+  }
+  
+  .course-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .course-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .course-card ul {
+    list-style: disc inside;
+    font-size: 14px;
+    margin: 0 0 10px;
+    padding-left: 20px;
+  }
+  
+  .course-duration {
+    font-weight: bold;
+    color: #b71c1c;
+    text-align: right;
+  }
+  
+  /* Specialized Training Section */
+  .specialized-training {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .specialized-training .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .specialized-training h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #b71c1c;
+  }
+  
+  .speciality-grid,
+  .specialty-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .speciality-card,
+  .specialty-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    width: 220px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .speciality-card h3,
+  .specialty-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .speciality-card p,
+  .specialty-card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .cert-badge {
+    display: inline-block;
+    background-color: #b71c1c;
+    color: #fff;
+    padding: 3px 8px;
+    font-size: 12px;
+    border-radius: 3px;
+  }
+  
+  /* Training Methodology Section */
+  .training-method {
+    padding: 40px 20px;
+  }
+  
+  .training-method .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .training-method h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #b71c1c;
+  }
+  
+  .method-steps {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .method-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 220px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .step-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #b71c1c;
+  }
+  
+  .method-card h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .method-card p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  /* Corporate Training Section */
+  .corporate-training {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .corporate-training .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .corporate-training h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #b71c1c;
+  }
+  
+  .corporate-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .corporate-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .corporate-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .corporate-card p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  /* CTA Section */
+  .training-cta {
+    background-color: #b71c1c;
+    padding: 40px 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .training-cta .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .training-cta h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .training-cta p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .training-cta .cta-button {
+    background-color: #fff;
+    color: #b71c1c;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .training-cta .cta-button:hover {
+    background-color: #880e4f;
+    color: #fff;
+    border-color: #880e4f;
+  }
+  

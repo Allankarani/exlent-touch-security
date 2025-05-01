@@ -1,0 +1,197 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.access-control-page {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Hero Section */
+.access-hero {
+    position: relative;
+    background: linear-gradient(135deg, #001f3f 50%, #8b0000 50%);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.access-hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.access-hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #b71c1c;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #880e4f;
+}
+
+/* Geometric Patterns */
+
+
+/* Benefits Banner */
+.benefits-banner {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+.benefit-item {
+    text-align: center;
+}
+
+.benefit-icon {
+    font-size: 24px;
+    color: #b71c1c;
+    margin-bottom: 5px;
+}
+
+/* System Types Section */
+.system-types {
+    padding: 40px 20px;
+}
+
+.system-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.system-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Integration Features Section */
+.integration-features {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+}
+
+.features-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.feature-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+    font-size: 40px;
+    color: #b71c1c;
+    margin-bottom: 10px;
+}
+
+/* Installation Process Section */
+.installation-process {
+    padding: 40px 20px;
+}
+
+.process-steps {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.process-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.step-number {
+    font-size: 40px;
+    color: #b71c1c;
+    margin-bottom: 10px;
+}
+
+/* Dashboard Section */
+.dashboard-section {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+}
+
+.dashboard-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dashboard-content ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* CTA Section */
+.access-cta {
+    text-align: center;
+    background-color: #b71c1c;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.access-cta h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.access-cta p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.access-cta .cta-button {
+    background-color: #fff;
+    color: #b71c1c;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+}
+
+.access-cta .cta-button:hover {
+    color: #fff;
+    background-color: #880e4f;
+    border-color: #880e4f;
+}

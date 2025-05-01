@@ -1,0 +1,290 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  .alarm-monitoring-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Hero Section */
+  .monitoring-hero {
+    position: relative;
+    background: linear-gradient(135deg, #001f3f 50%, #8b0000 50%);
+    text-align: center;
+    color: #fff;
+    padding: 50px 20px;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .monitoring-hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .monitoring-hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #b71c1c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #880e4f;
+  }
+  
+  /* Geometric Pattern Overlay in Hero Section */
+ 
+  
+  /* Response Time Banner */
+  .response-banner {
+    background-color: #f8f9fa;
+    padding: 20px 10px;
+    text-align: center;
+  }
+  
+  .response-banner .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .response-stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .stat-item {
+    padding: 10px;
+    margin: 10px;
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .stat-number {
+    display: block;
+    font-size: 36px;
+    font-weight: bold;
+    color: #b71c1c;
+    margin-bottom: 5px;
+  }
+  
+  .stat-label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  /* Monitoring Types Section */
+  .monitoring-types {
+    padding: 40px 20px;
+  }
+  
+  .monitoring-types .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .monitoring-types h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #b71c1c;
+  }
+  
+  .monitoring-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .monitoring-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .monitoring-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .monitoring-card ul {
+    list-style: disc inside;
+    padding-left: 20px;
+    margin: 0;
+  }
+  
+  /* Response Protocol Section */
+  .response-protocol {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+  }
+  
+  .response-protocol .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .response-protocol h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #b71c1c;
+  }
+  
+  .protocol-steps {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .protocol-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .step-number {
+    font-size: 40px;
+    font-weight: bold;
+    color: #b71c1c;
+    margin-bottom: 10px;
+  }
+  
+  /* Technology Integration Section */
+  .tech-integration {
+    padding: 40px 20px;
+  }
+  
+  .tech-integration .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .tech-integration h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #b71c1c;
+  }
+  
+  .tech-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .tech-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .tech-icon {
+    font-size: 40px;
+    color: #b71c1c;
+    margin-bottom: 10px;
+  }
+  
+  /* Monitoring Center Section */
+  .monitoring-center {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+  }
+  
+  .monitoring-center .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .center-content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #b71c1c;
+  }
+  
+  .center-content ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 16px;
+  }
+  
+  .center-content ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* CTA Section */
+  .monitoring-cta {
+    background-color: #b71c1c;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .monitoring-cta .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .monitoring-cta h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .monitoring-cta p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .monitoring-cta .cta-button {
+    background-color: #fff;
+    color: #b71c1c;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .monitoring-cta .cta-button:hover {
+    background-color: #880e4f;
+    color: #fff;
+    border-color: #880e4f;
+  }
+  

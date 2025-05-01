@@ -1,0 +1,164 @@
+/* General Styles */
+.home {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(rgba(10, 38, 71, 0.8), rgba(10, 38, 71, 0.8)), url('');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background: #FF5722;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .hero button:hover {
+    background: #E64A19;
+  }
+  
+  /* About Section */
+  .about-section {
+    padding: 4rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #0A2647;
+  }
+  
+  .about-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+  }
+  
+  /* Services Section */
+  .services-section {
+    padding: 4rem 2rem;
+    background: #F4F4F4;
+    text-align: center;
+  }
+  
+  .services-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #0A2647;
+  }
+  
+  .services-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  
+  .services-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .services-section li {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  /* Why Choose Us Section */
+  .why-choose-us {
+    padding: 4rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .why-choose-us h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #0A2647;
+  }
+  
+  .why-choose-us p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  
+  .why-choose-us ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .why-choose-us li {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .why-choose-us strong {
+    color: #0A2647;
+  }
+  
+  /* Call-to-Action Section */
+  .cta-section {
+    padding: 4rem 2rem;
+    background: #0A2647;
+    color: white;
+    text-align: center;
+  }
+  
+  .cta-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-section button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background: #FF5722;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .cta-section button:hover {
+    background: #E64A19;
+  }

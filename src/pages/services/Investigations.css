@@ -1,0 +1,299 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  .investigations-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Hero Section with Red Geometric Overlay */
+  .investigations-hero {
+    position: relative;
+    background: linear-gradient(135deg, #001f3f 50%, #8b0000 50%);
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero-overlay {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .investigations-hero h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+  
+  .investigations-hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* CTA Button (reused throughout) */
+  .cta-button {
+    background-color: #b71c1c;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #880e4f;
+  }
+  
+  /* Geometric Pattern Overlay for Hero Section */
+  
+  
+  /* Confidentiality Banner */
+  .confidentiality-banner {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .confidentiality-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .lock-icon {
+    font-size: 24px;
+    color: #b71c1c;
+  }
+  
+  /* Service Areas Section */
+  .service-areas {
+    padding: 40px 20px;
+  }
+  
+  .service-areas .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .service-areas h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #b71c1c;
+  }
+  
+  .services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .service-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .service-card ul {
+    list-style: disc inside;
+    font-size: 14px;
+    margin: 0;
+    padding-left: 20px;
+  }
+  
+  /* Methodology Section */
+  .methodology-section {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .methodology-section .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .methodology-section h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #b71c1c;
+  }
+  
+  .methodology-steps {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .method-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 220px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .step-number {
+    font-size: 40px;
+    font-weight: bold;
+    color: #b71c1c;
+    margin-bottom: 10px;
+  }
+  
+  .method-card h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .method-card p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  /* Technology Tools Section */
+  .technology-section {
+    padding: 40px 20px;
+  }
+  
+  .technology-section .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .technology-section h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #b71c1c;
+  }
+  
+  .tools-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .tool-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 220px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .tool-icon {
+    font-size: 40px;
+    color: #b71c1c;
+    margin-bottom: 10px;
+  }
+  
+  .tool-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .tool-card p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  /* Investigator Qualifications Section */
+  .qualifications-section {
+    padding: 40px 20px;
+  }
+  
+  .qualifications-section .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .qualifications-content {
+    text-align: center;
+  }
+  
+  .qualifications-content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #b71c1c;
+  }
+  
+  .qualifications-content ul {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+  }
+  
+  .qualifications-content ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* CTA Section */
+  .investigations-cta {
+    background: #b71c1c;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .investigations-cta .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .investigations-cta h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .investigations-cta p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .investigations-cta .cta-button {
+    background-color: #fff;
+    color: #b71c1c;
+    border: 2px solid #fff;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .investigations-cta .cta-button:hover {
+    background-color: #880e4f;
+    color: #fff;
+    border-color: #880e4f;
+  }
+  
+  /* Utility Container */
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  

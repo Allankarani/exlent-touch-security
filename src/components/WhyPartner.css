@@ -1,0 +1,89 @@
+/* WhyPartner.css */
+
+/* Section container */
+.why-partner-section {
+    background-color: #ffffff;
+    padding: 4rem 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .why-partner-section {
+      padding: 4rem 2rem;
+    }
+  }
+  
+  /* Content container */
+  .content-container {
+    max-width: 72rem; /* equivalent to max-w-6xl */
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Section heading */
+  .section-heading {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #1a202c;
+  }
+  
+  /* Section description */
+  .section-description {
+    color: #4b5563;
+    margin-bottom: 3rem;
+    max-width: 42rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Features grid */
+  .features-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: left;
+  }
+  
+  @media (min-width: 768px) {
+    .features-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  /* Feature card */
+  .feature-card {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    background-color: #f9fafb;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Feature icon */
+  .feature-icon {
+    width: 2rem;
+    height: 2rem;
+    color: #2563eb; /* Adjust this to match your primary color */
+  }
+  
+  /* Feature title */
+  .feature-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    color: #1a202c;
+  }
+  
+  /* Feature description */
+  .feature-description {
+    color: #4b5563;
+    font-size: 0.9375rem;
+  }

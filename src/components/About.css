@@ -1,0 +1,287 @@
+/* ===== Base Styles ===== */
+.about-page {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+/* ===== Hero Section ===== */
+.about-hero {
+    background: 
+                linear-gradient(135deg, #001f3f 50%, #8b0000 50%);
+
+    background-blend-mode: lighten;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #a31a33;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #a31a33;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Geometric Background Pattern */
+.about-hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://www.transparenttextures.com/patterns/hexellence.png');
+    opacity: 0.1;
+    z-index: 1;
+}
+
+/* ===== Sections Common Styles ===== */
+.section-container {
+    padding: 60px 20px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 2rem;
+    color: #a31a33;
+    margin-bottom: 2rem;
+    text-align: center;
+    position: relative;
+}
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #a31a33;
+    margin: 15px auto;
+}
+
+/* ===== Company Overview ===== */
+.company-overview {
+    background:
+                 white,
+                 url('exlent-touch-logo.jpg');
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.strengths-list {
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.strengths-list li {
+    font-size: 1.1rem;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+}
+
+.strengths-list li::before {
+    content: "•";
+    color: #a31a33;
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+
+/* ===== Achievements Grid ===== */
+.achievements-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.achievement-card {
+    background: #a31a33;
+    color: white;
+    padding: 25px 15px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.achievement-card:hover {
+    transform: translateY(-5px);
+}
+
+.achievement-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.achievement-text {
+    font-size: 1rem;
+}
+
+/* ===== Leadership Section ===== */
+.leadership-section {
+    background: #f1f1f1;
+}
+
+.leadership-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.leader-card {
+    background: white;
+    padding: 30px;
+    border-left: 5px solid #a31a33;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.leader-card h3 {
+    color: #a31a33;
+    margin-bottom: 5px;
+}
+
+.position {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 15px;
+    display: block;
+}
+
+/* ===== Mission & Vision ===== */
+.mission-vision {
+    background: #a31a33;
+    color: white;
+}
+
+/* ===== Clients Section ===== */
+.clients-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.client-card {
+    background: white;
+    padding: 20px;
+    border-left: 5px solid #a31a33;
+    border-radius: 4px;
+}
+
+/* ===== Values Section ===== */
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.value-card {
+    background: #a31a33;
+    color: white;
+    padding: 25px 15px;
+    text-align: center;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.value-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+/* ===== Welfare Section ===== */
+.welfare-section {
+    background: #a31a33;
+    color: white;
+}
+
+.welfare-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.welfare-card {
+    background: white;
+    color: #333;
+    padding: 25px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* ===== Responsive Adjustments ===== */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .section-container {
+        padding: 40px 20px;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .leadership-grid,
+    .values-grid,
+    .welfare-grid {
+        grid-template-columns: 1fr;
+    }
+}

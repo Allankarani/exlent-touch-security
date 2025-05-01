@@ -1,0 +1,301 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  .security-audit-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Hero Section with Red Geometric Overlay */
+  .audit-hero {
+    position: relative;
+    background: linear-gradient(135deg, #001f3f 50%, #8b0000 50%);
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .audit-hero h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+  
+  .audit-hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* CTA Button (reused throughout) */
+  .cta-button {
+    background-color: #b71c1c;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #880e4f;
+  }
+  
+  /* Geometric Pattern Overlay for Hero Section */
+ 
+  
+  /* Stats Banner */
+  .stats-banner {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .stats-banner .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .stats-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .stat-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .stat-number {
+    display: block;
+    font-size: 32px;
+    font-weight: bold;
+    color: #b71c1c;
+    margin-bottom: 10px;
+  }
+  
+  .stat-desc {
+    display: block;
+    font-size: 14px;
+  }
+  
+  /* Audit Types Section */
+  .audit-types {
+    padding: 40px 20px;
+  }
+  
+  .audit-types .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .audit-types h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #b71c1c;
+  }
+  
+  .audit-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .audit-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .audit-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .audit-card ul {
+    list-style: disc inside;
+    font-size: 14px;
+    margin: 0;
+    padding-left: 20px;
+  }
+  
+  /* 5-phase Audit Process Section */
+  .process-timeline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  
+  .phase {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .phase-number {
+    font-size: 40px;
+    font-weight: bold;
+    color: #b71c1c;
+    margin-bottom: 10px;
+  }
+  
+  .phase-content h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .phase-content p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  /* Deliverables Section */
+  .deliverables {
+    padding: 40px 20px;
+  }
+  
+  .deliverables .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .deliverables h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #b71c1c;
+  }
+  
+  .deliverables-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .deliverable-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 220px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .deliverable-icon {
+    font-size: 40px;
+    color: #b71c1c;
+    margin-bottom: 10px;
+  }
+  
+  .deliverable-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .deliverable-card p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  /* Industries Served Section */
+  .industries-served {
+    padding: 40px 20px;
+  }
+  
+  .industries-served .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .industries-served h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #b71c1c;
+  }
+  
+  .industry-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .tag {
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 14px;
+  }
+  
+  /* CTA Section */
+  .audit-cta {
+    background: #b71c1c;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .audit-cta .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .audit-cta h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .audit-cta p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .audit-cta .cta-button {
+    background-color: #fff;
+    color: #b71c1c;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .audit-cta .cta-button:hover {
+    background-color: #880e4f;
+    color: #fff;
+    border-color: #880e4f;
+  }
+  

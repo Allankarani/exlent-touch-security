@@ -1,0 +1,224 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.vip-protection-page {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Hero Section */
+.vip-hero {
+    position: relative;
+    background: linear-gradient(135deg, #001f3f 50%, #8b0000 50%);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 700px;
+    padding: 1rem;
+}
+
+.vip-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.hero-icon {
+    font-size: 2.5rem;
+    color: #ff4d4d;
+}
+
+.vip-hero p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.cta-button.elite {
+    background-color: #b71c1c;
+    border: none;
+    color: #fff;
+    padding: 14px 28px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-button.elite:hover {
+    background-color: #880e4f;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+    .vip-hero {
+        background: linear-gradient(180deg, #001f3f 50%, #8b0000 50%);
+        padding: 60px 20px;
+    }
+    .vip-hero h1 {
+        font-size: 2rem;
+        flex-direction: column;
+    }
+    .hero-icon {
+        font-size: 2rem;
+    }
+    .cta-button.elite {
+        width: 100%;
+    }
+}
+/* Geometric Patterns */
+
+
+/* Badges Section */
+.badges-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f9f9fa;
+}
+.section-heading {
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #111;
+}
+
+.badge-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.badge-item {
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s, box-shadow 0.3s ease;
+}
+.badge-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1)
+}
+
+.badge-icon {
+    font-size: 48px;
+    color: #b71c1c;
+    margin-bottom: 20px;
+}
+.badge-item p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+.badge-item p strong {
+    display: block;
+    font-size: 18px;
+    color: #111;
+    margin-bottom: 4px;
+}
+
+/* Protection Tiers Section */
+.protection-tiers {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.tiers-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.tier-card {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Methodology Section */
+.methodology {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+}
+
+.method-steps {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.method-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.step-number {
+    font-size: 40px;
+    color: #b71c1c;
+    margin-bottom: 10px;
+}
+
+/* CTA Section */
+.vip-cta {
+    text-align: center;
+    background-color: #b71c1c;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.vip-cta h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.vip-cta p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.vip-cta .cta-button.elite {
+    background-color: #fff;
+    color: #b71c1c;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+}
+
+.vip-cta .cta-button.elite:hover {
+    color: #fff;
+    background-color: #880e4f;
+    border-color: #880e4f;
+}
+
+.discretion-note {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ddd;
+}

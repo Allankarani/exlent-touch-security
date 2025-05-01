@@ -1,0 +1,189 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.electric-fence-page {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Hero Section */
+.fence-hero {
+    position: relative;
+    background: linear-gradient(135deg, #001f3f 50%, #8b0000 50%);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.fence-hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.fence-hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #b71c1c;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #880e4f;
+}
+
+/* Geometric Patterns */
+
+
+/* Safety Banner */
+.safety-banner {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.safety-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.safety-icon {
+    font-size: 24px;
+    color: #b71c1c;
+}
+
+/* Components Section */
+.components-section {
+    padding: 40px 20px;
+}
+
+.components-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.component-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Security Levels Section */
+.security-levels {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+}
+
+.levels-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.level-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Installation Process Section */
+.installation-process {
+    padding: 40px 20px;
+}
+
+.process-steps {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.process-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.step-number {
+    font-size: 40px;
+    color: #b71c1c;
+    margin-bottom: 10px;
+}
+
+/* Compliance Section */
+.compliance-section {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+}
+
+.compliance-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.compliance-content ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* CTA Section */
+.fence-cta {
+    text-align: center;
+    background-color: #b71c1c;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.fence-cta h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.fence-cta p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.fence-cta .cta-button {
+    background-color: #fff;
+    color: #b71c1c;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+}
+
+.fence-cta .cta-button:hover {
+    color: #fff;
+    background-color: #880e4f;
+    border-color: #880e4f;
+}

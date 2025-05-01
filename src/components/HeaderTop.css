@@ -1,0 +1,38 @@
+/* HeaderTop.css */
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #e5e7eb;
+    background-color: white;
+  }
+  
+  .contact-container {
+    display: flex;
+    gap: 3rem;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .icon-phone,
+  .icon-mail {
+    color: #6c172a; /* text-blue-900 equivalent */
+    font-size: 1.25rem;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .header-top {
+      padding: 0.75rem 1rem;
+    }
+    
+    .contact-container {
+      gap: 1.5rem;
+    }
+  }
