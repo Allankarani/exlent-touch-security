@@ -10,9 +10,7 @@
 
 /* ===== Hero Section ===== */
 .about-hero {
-    background: 
-                linear-gradient(135deg, #001f3f 50%, #8b0000 50%);
-
+    background: linear-gradient(135deg, #001f3f 50%, #8b0000 50%);
     background-blend-mode: lighten;
     background-size: cover;
     background-position: center;
