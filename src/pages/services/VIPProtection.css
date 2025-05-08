@@ -222,3 +222,54 @@ body {
     font-size: 14px;
     color: #ddd;
 }
+@media (max-width: 768px) {
+    .vip-hero {
+        background: linear-gradient(180deg, #001f3f 50%, #8b0000 50%);
+        padding: 60px 20px;
+    }
+
+    .vip-hero h1 {
+        font-size: 2rem;
+        flex-direction: column;
+    }
+
+    .hero-icon {
+        font-size: 2rem;
+    }
+
+    .cta-button.elite {
+        width: 100%;
+    }
+
+    .tiers-grid,
+    .method-steps {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tier-card,
+    .method-card {
+        width: 100%;
+        max-width: 90%;
+    }
+
+    .badge-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .vip-cta h2 {
+        font-size: 20px;
+    }
+
+    .vip-cta p {
+        font-size: 14px;
+    }
+
+    .section-heading {
+        font-size: 22px;
+    }
+
+    .vip-hero p {
+        font-size: 1rem;
+    }
+}

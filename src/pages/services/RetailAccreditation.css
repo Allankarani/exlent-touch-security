@@ -166,3 +166,44 @@ h2 {
     font-size: 1.2rem;
     margin-bottom: 20px;
 }
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    .hero-content p {
+        font-size: 1rem;
+    }
+    .cta-button {
+        width: 100%;
+        padding: 14px;
+        font-size: 1rem;
+    }
+    .badge-grid,
+    .process-steps,
+    .benefits-grid,
+    .compliance-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    .badge-card,
+    .process-card,
+    .benefit-card,
+    .compliance-item {
+        width: 90%;
+        max-width: 320px;
+    }
+    section {
+        padding: 40px 15px;
+    }
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    .accreditation-cta {
+        padding: 40px 20px;
+        text-align: center;
+    }
+    .accreditation-cta p {
+        font-size: 1rem;
+    }
+}

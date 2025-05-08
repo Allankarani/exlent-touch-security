@@ -298,4 +298,53 @@ body {
     color: #fff;
     border-color: #880e4f;
   }
-  
+  @media (max-width: 768px) {
+    .audit-hero h1 {
+      font-size: 28px;
+    }
+    .audit-hero p {
+      font-size: 16px;
+    }
+    .cta-button,
+    .audit-cta .cta-button {
+      width: 100%;
+      font-size: 15px;
+      padding: 10px;
+    }
+    .stats-grid,
+    .audit-grid,
+    .process-timeline,
+    .deliverables-grid,
+    .industry-tags {
+      flex-direction: column;
+      align-items: center;
+    }
+    .stat-card,
+    .audit-card,
+    .phase,
+    .deliverable-card {
+      width: 100%;
+      max-width: 320px;
+    }
+    .audit-types h2,
+    .deliverables h2,
+    .industries-served h2,
+    .audit-cta h2 {
+      font-size: 22px;
+    }
+    .audit-cta p,
+    .audit-hero p {
+      font-size: 14px;
+    }
+    .industry-tags {
+      gap: 8px;
+      padding: 0 10px;
+    }
+    .tag {
+      font-size: 13px;
+      padding: 6px 12px;
+    }
+    .security-audit-page {
+      padding: 0 10px;
+    }
+  }

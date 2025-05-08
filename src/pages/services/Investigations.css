@@ -296,4 +296,59 @@ body {
     width: 90%;
     margin: 0 auto;
   }
-  
+  @media (max-width: 768px) {
+    .investigations-hero {
+      padding: 60px;
+    }
+    .investigations-hero h1 {
+      font-size: 28px;
+    }
+    .investigations-hero p {
+      font-size: 16px;
+    }
+    .cta-button,
+    .investigations-cta .cta-button {
+      width: 100%;
+      padding: 12px;
+      font-size: 15px;
+    }
+    .confidentiality-content {
+      flex-direction: column;
+      text-align: center;
+    }
+    .services-grid,
+    .methodology-steps,
+    .tools-grid {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .service-card,
+    .method-card,
+    .tool-card {
+      width: 100%;
+      max-width: 90%;
+    }
+
+    .qualifications-content h2,
+    .methodology-section h2,
+    .technology-section h2,
+    .service-areas h2,
+    .investigations-cta h2 {
+      font-size: 24px;
+    }
+    .investigations-cta p {
+      font-size: 14px;
+    }
+    .qualifications-content ul {
+      font-size: 13px;
+    }
+    .step-number {
+      font-size: 30px
+    }
+    .container {
+      width: 95%;
+      padding: 0 10px;
+    }
+
+  }

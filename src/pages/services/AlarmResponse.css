@@ -287,4 +287,68 @@ body {
     color: #fff;
     border-color: #880e4f;
   }
-  
+  @media (max-width: 768px) {
+    .monitoring-hero {
+      padding: 30px 15px;
+    }
+    
+    .monitoring-hero h1 {
+      font-size: 28px;
+    }
+
+    .monitoring-hero p {
+      font-size: 16px;
+    }
+
+    .cta-button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+
+    .response-stats {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .monitoring-grid,
+    .protocol-steps,
+    .tech-grid {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .monitoring-card,
+    .protocol-card,
+    .tech-card {
+      width: 100%;
+      max-width: 90%;
+    }
+
+    .monitoring-types h2,
+    .response-protocol h2,
+    .tech-integration h2,
+    .monitoring-center .center-content h2,
+    .monitoring-cta h2 {
+      font-size: 24px;
+    }
+    .monitoring-types,
+    .response-protocol,
+    .tech-integration,
+    .monitoring-center,
+    .monitoring-cta {
+      padding: 30px 15px;
+    }
+
+    .stat-number {
+      font-size: 28px;
+    }
+
+    .monitoring-cta p {
+      font-size: 14px;
+    }
+    .monitoring-cta .cta-button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+
+  }

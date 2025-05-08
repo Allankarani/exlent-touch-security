@@ -200,3 +200,45 @@ body {
     background-color: #880e4f;
     border-color: #880e4f;
 }
+@media (max-width: 768px) {
+    .cctv-hero {
+        padding: 60px 20px;
+    }
+    .cctv-hero h1 {
+        font-size: 28px;
+    }
+
+    .cctv-hero p {
+        font-size: 16px;
+    }
+    .cta-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+    .stats-banner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .system-grid,
+    .process-steps,
+    .features-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .system-card,
+    .process-card,
+    .feature-card {
+        width: 100%;
+        max-width: 350px;
+
+    }
+
+    .cctv-cta h2 {
+        font-size: 14px;
+    }
+    .cctv-cta .cta-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}

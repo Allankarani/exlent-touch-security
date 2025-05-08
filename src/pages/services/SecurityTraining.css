@@ -320,4 +320,84 @@ body {
     color: #fff;
     border-color: #880e4f;
   }
-  
+  /* ---------- Responsive Layout Adjustments ---------- */
+
+/* Medium Devices (Tablets, 768px and up) */
+@media (max-width: 991px) {
+  .course-grid,
+  .speciality-grid,
+  .specialty-grid,
+  .method-steps,
+  .corporate-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .course-card,
+  .speciality-card,
+  .specialty-card,
+  .method-card,
+  .corporate-card {
+    width: 90%;
+    max-width: 400px;
+  }
+
+  .training-hero h1 {
+    font-size: 30px;
+  }
+
+  .training-hero p,
+  .training-cta p {
+    font-size: 16px;
+  }
+
+  .training-cta h2,
+  .core-courses h2,
+  .specialized-training h2,
+  .training-method h2,
+  .corporate-training h2 {
+    font-size: 24px;
+  }
+}
+
+/* Small Devices (Mobile phones, 600px and down) */
+@media (max-width: 600px) {
+  .training-hero {
+    padding: 40px 10px;
+  }
+
+  .training-hero h1 {
+    font-size: 24px;
+  }
+
+  .training-hero p {
+    font-size: 14px;
+  }
+
+  .cta-button,
+  .training-cta .cta-button {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .training-cta {
+    padding: 30px 15px;
+  }
+
+  .course-card,
+  .speciality-card,
+  .specialty-card,
+  .method-card,
+  .corporate-card {
+    padding: 15px;
+  }
+
+  .accreditation-content {
+    gap: 5px;
+    font-size: 14px;
+  }
+
+  .step-icon {
+    font-size: 32px;
+  }
+}
