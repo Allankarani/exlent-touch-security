@@ -90,7 +90,7 @@ h2 {
 
 .badge-icon {
     font-size: 3rem;
-    color: #9b0d0d;
+    color: #8b0000;
 }
 
 /* Process Section */
@@ -118,7 +118,7 @@ h2 {
 .step-number {
     font-size: 2rem;
     font-weight: bold;
-    color: #9b0d0d;
+    color: #8b0000;
 }
 
 /* Benefits Section */
@@ -157,7 +157,7 @@ h2 {
 
 /* CTA Section */
 .accreditation-cta {
-    background: linear-gradient(to right, #9b0d0d, #d32f2f);
+    background: linear-gradient(to right, #8b0000);
     color: white;
     padding: 50px;
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaIdCard, FaFingerprint, FaMobileAlt, FaTachometerAlt } from 'react-icons/fa';
 import './AccessControl.css';
 const AccessControl = () => {
     return (
@@ -34,11 +35,12 @@ const AccessControl = () => {
             </section>
 
             {/* System Types */}
-            <section className="system-types">
+            <section className="system-types access-control">
                 <div className="container">
-                    <h2>Our Access Control Solutions</h2>
+                    <h2 className="section-heading">Our Access Control Solutions</h2>
                     <div className="system-grid">
                         <div className="system-card">
+                            <FaIdCard className="system-icon" />
                             <h3>Card & Key Fob Systems</h3>
                             <ul>
                                 <li>RFID/NFC technology</li>
@@ -48,6 +50,7 @@ const AccessControl = () => {
                             </ul>
                         </div>
                         <div className="system-card">
+                            <FaFingerprint className="system-icon" />
                             <h3>Biometric Systems</h3>
                             <ul>
                                 <li>Fingerprint recognition</li>
@@ -57,6 +60,7 @@ const AccessControl = () => {
                             </ul>
                         </div>
                         <div className="system-card">
+                            <FaMobileAlt className="system-icon" />
                             <h3>Module Access Systems</h3>
                             <ul>
                                 <li>Smartphone-enabled entry</li>
@@ -127,9 +131,10 @@ const AccessControl = () => {
             {/* Management Dashboard */}
             <section className="dashboard-section">
                 <div className="container">
-                    <div className="dashboard-content">
+                    <div className="dashboard-card">
+                        <FaTachometerAlt className="dashboard-icon" />
                         <h2>Centralized Management Dashboard</h2>
-                        <ul>
+                        <ul className="dashbaord-features">
                             <li>Real-time access monitoring</li>
                             <li>Customizable reports and alerts</li>
                             <li>Multi-site management</li>

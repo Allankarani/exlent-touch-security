@@ -12,6 +12,7 @@ body {
     padding: 0 20px;
 }
 
+
 /* Hero Section */
 .access-hero {
     position: relative;
@@ -74,23 +75,57 @@ body {
 }
 
 /* System Types Section */
+.access-control {
+    background-color: #fdfdfd;
+    padding: 60px 20px;
+}
+.section-heading {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #222;
+}
 .system-types {
     padding: 40px 20px;
 }
 
 .system-grid {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 20px;
-    justify-content: center;
+
 }
 
 .system-card {
     background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 20px;
-    width: 300px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding:  30px 20px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.system-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 26px rgba(0, 0, 0, 0.1);
+}
+.system-icon {
+    font-size: 40px;
+    color: #b71c1c;
+    margin-bottom: 16px;
+}
+
+.system-card h3 {
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: #333;
+}
+.system-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #555;
+    font-size: 15px;
+    line-height: 1.7;
 }
 
 /* Integration Features Section */
@@ -148,20 +183,57 @@ body {
 
 /* Dashboard Section */
 .dashboard-section {
-    text-align: center;
-    background-color: #f8f9fa;
+    background: linear-gradient(to right, #fafafa, #f3f4f6);
+    padding: 60px 20px;
+}
+.dashboard-card {
+    max-width: 700px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 20px;
     padding: 40px 20px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.07);
+    text-align: center;
+    transition: transform 0.3s ease;
 }
 
-.dashboard-content ul {
-    list-style-type: none;
+.dashboard-card:hover {
+    transform: translateY(-5px);
+
+}
+.dashboard-icon {
+    font-size: 48px;
+    color: #b71c1c;
+    margin-bottom: 24px;
+}
+
+.dashboard-card h2 {
+    font-size: 28px;
+    color: #222;
+    margin-bottom: 24px;
+}
+.dashboard-features {
+    list-style: none;
     padding: 0;
+    margin: 0;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.7;
 }
 
-.dashboard-content ul li {
-    font-size: 16px;
-    margin-bottom: 10px;
+.dashboard-features li {
+    margin-bottom: 12px;
+    position: relative;
+    padding-left: 20px;
 }
+.dashbaord-features li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #b71c1c;
+    font-size: 14px;
+}
+
 
 /* CTA Section */
 .access-cta {

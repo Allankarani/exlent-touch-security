@@ -1,4 +1,6 @@
 import React from 'react';
+import { FaVideo, FaNetworkWired, FaMicrochip } from 'react-icons/fa';
+import { FaDoorOpen, FaBell, FaHome, FaServer } from 'react-icons/fa';
 import './CCTVInstallation.css';
 const CCTVInstallation = () => {
     return (
@@ -6,7 +8,12 @@ const CCTVInstallation = () => {
             <section className="cctv-hero">
                 <div className="hero-content">
                     <h1>Professional CCTV Installation Services</h1>
-                    <p>Cutting-edge surveillance systems tailored to your security needs</p>
+                    <p className="subtitle">
+                        Cutting-edge surveillance systems tailored to your security needs
+                    </p>
+                    <p className="trust-note">
+                        Trusted by 100+ homes and businesses across kenya
+                    </p>
                     <button
                      className="cta-button"
                      onClick={() => window.location.href = '/contact'}
@@ -37,6 +44,7 @@ const CCTVInstallation = () => {
                     <h2>Our CCTV System Solutions</h2>
                     <div className="system-grid">
                         <div className="system-card">
+                            <FaVideo className="system-icon" />
                             <h3>Analog HD Systems</h3>
                             <ul>
                                 <li>Cost-effective upgrades from legacy systems</li>
@@ -46,6 +54,7 @@ const CCTVInstallation = () => {
                             </ul>
                         </div>
                         <div className="system-card">
+                            <FaNetworkWired className="system-icon" />
                             <h3>IP Network Systems</h3>
                             <ul>
                                 <li>4K ultra HD resolution</li>
@@ -55,6 +64,7 @@ const CCTVInstallation = () => {
                             </ul>
                         </div>
                         <div className="system-card">
+                            <FaMicrochip className="system-icon" />
                             <h3>Wireless & AI Systems</h3>
                             <ul>
                                 <li>Wire-free installation options</li>
@@ -126,14 +136,28 @@ const CCTVInstallation = () => {
             <section className="integration">
                 <div className="container">
                     <div className="integration-content">
-                        <h2>Seamless Security Integration</h2>
-                        <p>our systems work with your existing security infrastructure:</p>
-                        <ul className="integration-list">
-                            <li>Access control systems</li>
-                            <li>Intrusion alarms</li>
-                            <li>Smart home devices</li>
-                            <li>Central monitoring stations</li>
-                        </ul>
+                        <h2 className="section-heading">Seamless Security Integration</h2>
+                        <p className="integration-subtext">
+                            our systems work flawlessly with your existing security infrastructure:
+                        </p>
+                        <div className="integration-grid">
+                            <div className="integration-item">
+                                <FaDoorOpen className="integration-icon" />
+                                <p>Access Control Systems</p>
+                            </div>
+                            <div className="integration-item">
+                                <FaBell className="integration-icon" />
+                                <p>Intrusion Alarms</p>
+                            </div>
+                            <div className="integration-item">
+                                <FaHome className="integration-icon" />
+                                <p>Smart Home Devices</p>
+                            </div>
+                            <div className="integration-item">
+                                <FaServer className="integration-icon" />
+                                <p>Central Monitoring Stations</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>

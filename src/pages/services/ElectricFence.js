@@ -1,4 +1,8 @@
 import React from 'react';
+import { FaBolt, FaSolarPanel, FaBatteryHalf, FaWifi, FaVideo, FaCheckCircle, FaBalanceScale, FaShieldAlt, FaExclamationTriangle} from 'react-icons/fa';
+import { GiElectric } from 'react-icons/gi';
+import { MdOutlineSensors, MdSecurity } from 'react-icons/md';
+import { BsHouses, BsBuildings, BsShieldLock} from 'react-icons/bs';
 import './ElectricFence.css';
 
 const ElectricFence = () => {
@@ -31,33 +35,33 @@ const ElectricFence = () => {
       {/* System Components */}
       <section className="components-section">
         <div className="container">
-          <h2>Electric Fence System Components</h2>
+          <h2 className="section-title">Electric Fence System Components</h2>
           <div className="components-grid">
             <div className="component-card">
-              <h3>Energizer Units</h3>
-              <ul>
-                <li>8,000V - 10,000V output (adjustable)</li>
-                <li>Solar-powered options available</li>
-                <li>Battery backup systems</li>
-                <li>Remote monitoring capable</li>
+              <h3 className="component-title"><FaBolt />Energizer Units</h3>
+              <ul className="component-list">
+                <li><GiElectric />8,000V - 10,000V output (adjustable)</li>
+                <li><FaSolarPanel />Solar-powered options available</li>
+                <li><FaBatteryHalf />Battery backup systems</li>
+                <li><FaWifi />Remote monitoring capable</li>
               </ul>
             </div>
             <div className="component-card">
-              <h3>Conductors</h3>
-              <ul>
-                <li>High-tensile galvanized steel wire</li>
-                <li>Polywire/polytape options</li>
-                <li>Anti-corrosion coatings</li>
-                <li>Multiple line configurations</li>
+              <h3 className="component-title"><GiElectric />Conductors</h3>
+              <ul className="component-list">
+                <li><GiElectric /> High-tensile galvanized steel wire</li>
+                <li><GiElectric /> Polywire/polytape options</li>
+                <li><GiElectric /> Anti-corrosion coatings</li>
+                <li><GiElectric /> Multiple line configurations</li>
               </ul>
             </div>
             <div className="component-card">
-              <h3>Detection Systems</h3>
-              <ul>
-                <li>Tension sensors</li>
-                <li>Voltage monitoring</li>
-                <li>SMS/email alerts</li>
-                <li>CCTV integration</li>
+              <h3 className="component-title"><MdOutlineSensors /> Detection Systems</h3>
+              <ul className="component-list">
+                <li><MdOutlineSensors /> Tension sensors</li>
+                <li><FaBolt /> Voltage monitoring</li>
+                <li><MdSecurity />SMS/email alerts</li>
+                <li><FaVideo /> CCTV integration</li>
               </ul>
             </div>
           </div>
@@ -67,35 +71,35 @@ const ElectricFence = () => {
       {/* Security Levels */}
       <section className="security-levels">
         <div className="container">
-          <h2>Security Level Options</h2>
+          <h2 className="section-title">Security Level Options</h2>
           <div className="levels-grid">
             <div className="level-card">
-              <h3>Residential Grade</h3>
-              <p><strong>6-8kV Output</strong></p>
-              <ul>
-                <li>Single wire configurations</li>
-                <li>Basic alarm triggers</li>
-                <li>500m perimeter coverage</li>
+              <h3 className="level-title residential"><BsHouses /> Residential Grade</h3>
+              <p className="level-voltage"><strong>6-8kV Output</strong></p>
+              <ul className="level-list">
+                <li><MdOutlineSensors /> Single wire configurations</li>
+                <li><MdSecurity /> Basic alarm triggers</li>
+                <li><FaBolt /> 500m perimeter coverage</li>
                 <li>Ideal for homes & small properties</li>
               </ul>
             </div>
             <div className="level-card">
-              <h3>Commercial Grade</h3>
-              <p><strong>8-10kV Output</strong></p>
-              <ul>
-                <li>Multi-wire configurations</li>
-                <li>Advanced intrusion detection</li>
-                <li>2km perimeter coverage</li>
+              <h3 className="level-title commercial"><BsBuildings /> Commercial Grade</h3>
+              <p className="level-voltage"><strong>8-10kV Output</strong></p>
+              <ul className="level-list">
+                <li><GiElectric /> Multi-wire configurations</li>
+                <li><MdSecurity /> Advanced intrusion detection</li>
+                <li><FaBolt /> 2km perimeter coverage</li>
                 <li>Industrial site protection</li>
               </ul>
             </div>
             <div className="level-card">
-              <h3>High-Security Grade</h3>
-              <p><strong>10kV+ Output</strong></p>
-              <ul>
-                <li>Anti-climb configurations</li>
-                <li>Integrated with security systems</li>
-                <li>Unlimited perimeter coverage</li>
+              <h3 className="level-title high-security"><BsShieldLock /> High-Security Grade</h3>
+              <p className="level-voltage"><strong>10kV+ Output</strong></p>
+              <ul className="level-lists">
+                <li><GiElectric /> Anti-climb configurations</li>
+                <li><MdSecurity /> Integrated with security systems</li>
+                <li><FaBolt /> Unlimited perimeter coverage</li>
                 <li>Critical infrastructure protection</li>
               </ul>
             </div>
@@ -136,12 +140,12 @@ const ElectricFence = () => {
       <section className="compliance-section">
         <div className="container">
           <div className="compliance-content">
-            <h2>Full Regulatory Compliance</h2>
-            <ul>
-              <li>IEC 60335-2-76 safety standards</li>
-              <li>Local municipal regulations</li>
-              <li>Insurance-approved installations</li>
-              <li>Warning signage included</li>
+            <h2 className="compliance-title">Full Regulatory Compliance</h2>
+            <ul className="compliance-list">
+              <li><FaBalanceScale /> IEC 60335-2-76 safety standards</li>
+              <li><FaShieldAlt /> Local municipal regulations</li>
+              <li><FaCheckCircle />Insurance-approved installations</li>
+              <li><FaExclamationTriangle />Warning signage included</li>
             </ul>
           </div>
         </div>

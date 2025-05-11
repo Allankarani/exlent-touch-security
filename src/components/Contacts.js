@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Contacts.css'; // Link to external CSS
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -20,9 +21,7 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
-
     alert('Your inquiry has been sent!');
-
     setFormData({
       name: '',
       email: '',
@@ -34,32 +33,13 @@ const ContactForm = () => {
 
   return (
     <div className="contact-form-container">
-      <div
-        className="contact-header"
-        style={{
-          backgroundColor: '#c1272d',
-          color: 'white',
-          padding: '15px 20px',
-        }}
-      >
+      <div className="contact-header">
         <h3>CONTACT US FOR INQUIRY</h3>
       </div>
 
-      <form
-        onSubmit={handleSubmit}
-        className="contact-form"
-        style={{ padding: '20px' }}
-      >
-        <div
-          className="form-row"
-          style={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            gap: '20px',
-            marginBottom: '20px',
-          }}
-        >
-          <div className="form-group" style={{ flex: '1', minWidth: '200px' }}>
+      <form onSubmit={handleSubmit} className="contact-form" aria-label="Contact Inquiry Form">
+        <div className="form-row">
+          <div className="form-group">
             <label htmlFor="name">Name *</label>
             <input
               type="text"
@@ -68,16 +48,11 @@ const ContactForm = () => {
               value={formData.name}
               onChange={handleChange}
               required
-              style={{
-                width: '100%',
-                padding: '8px',
-                borderRadius: '3px',
-                border: '1px solid #ddd',
-              }}
+              aria-label="Name"
             />
           </div>
 
-          <div className="form-group" style={{ flex: '1', minWidth: '200px' }}>
+          <div className="form-group">
             <label htmlFor="email">Email *</label>
             <input
               type="email"
@@ -86,16 +61,11 @@ const ContactForm = () => {
               value={formData.email}
               onChange={handleChange}
               required
-              style={{
-                width: '100%',
-                padding: '8px',
-                borderRadius: '3px',
-                border: '1px solid #ddd',
-              }}
+              aria-label="Email"
             />
           </div>
 
-          <div className="form-group" style={{ flex: '1', minWidth: '200px' }}>
+          <div className="form-group">
             <label htmlFor="phone">Phone</label>
             <input
               type="tel"
@@ -103,38 +73,21 @@ const ContactForm = () => {
               name="phone"
               value={formData.phone}
               onChange={handleChange}
-              style={{
-                width: '100%',
-                padding: '8px',
-                borderRadius: '3px',
-                border: '1px solid #ddd',
-              }}
+              placeholder="e.g. +254 712 345678"
+              aria-label="Phone Number"
             />
           </div>
         </div>
 
-        <div
-          className="form-row"
-          style={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            gap: '20px',
-            marginBottom: '20px',
-          }}
-        >
-          <div className="form-group" style={{ flex: '1', minWidth: '200px' }}>
+        <div className="form-row">
+          <div className="form-group">
             <label htmlFor="interestedIn">Interested In</label>
             <select
               id="interestedIn"
               name="interestedIn"
               value={formData.interestedIn}
               onChange={handleChange}
-              style={{
-                width: '100%',
-                padding: '8px',
-                borderRadius: '3px',
-                border: '1px solid #ddd',
-              }}
+              aria-label="Interest Category"
             >
               <option value="">Select an option</option>
               <option value="sales">Sales</option>
@@ -144,44 +97,22 @@ const ContactForm = () => {
             </select>
           </div>
 
-          <div className="form-group" style={{ flex: '2', minWidth: '300px' }}>
-            <label htmlFor="comments">Your Comments</label>
+          <div className="form-group full-width">
+            <label htmlFor="comments">Comments</label>
             <textarea
               id="comments"
               name="comments"
               value={formData.comments}
               onChange={handleChange}
               rows="3"
-              style={{
-                width: '100%',
-                padding: '8px',
-                borderRadius: '3px',
-                border: '1px solid #ddd',
-              }}
+              aria-label="Additional Comments"
             ></textarea>
           </div>
         </div>
 
-        <div
-          className="form-submit"
-          style={{ display: 'flex', justifyContent: 'flex-end' }}
-        >
-          <button
-            type="submit"
-            style={{
-              backgroundColor: '#c1272d',
-              color: 'white',
-              padding: '10px 20px',
-              border: 'none',
-              borderRadius: '3px',
-              cursor: 'pointer',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-            }}
-          >
-            SEND INQUIRY
-            <span style={{ marginLeft: '10px' }}>→</span>
+        <div className="form-submit">
+          <button type="submit" aria-label="Submit Inquiry">
+            SEND INQUIRY <span className="arrow">→</span>
           </button>
         </div>
       </form>

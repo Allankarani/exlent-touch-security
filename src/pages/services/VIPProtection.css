@@ -222,6 +222,63 @@ body {
     font-size: 14px;
     color: #ddd;
 }
+.team-qualifications {
+    padding: 60px 20px;
+    background-color: #f9f9fa;
+    text-align: center;
+}
+
+.team-qualifications h2 {
+    font-size: 2rem;
+    color: #111;
+    margin-bottom: 40px;
+}
+
+.qualifications-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    justify-content: center;
+}
+
+.qualification-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+.qualification-card h3 {
+    font-size: 1.5rem;
+    color: #b71c1c;
+    margin-bottom: 20px;
+}
+.qualification-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.qualification-card ul li {
+    padding: 8px;
+    font-size: 16px;
+    color: #333;
+    border-bottom: 1px solid #eee;
+}
+
+.qualification-card ul li:last-child {
+    border-bottom: none;
+}
+.qualification-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.qualification-icon {
+    font-size: 1.75rem;
+    color: #b71c1c;
+}
 @media (max-width: 768px) {
     .vip-hero {
         background: linear-gradient(180deg, #001f3f 50%, #8b0000 50%);

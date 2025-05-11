@@ -3,6 +3,7 @@ import { FaUserSecret } from "react-icons/fa";
 import { MdSecurity } from "react-icons/md";
 import { FaGlobeAmericas } from "react-icons/fa";
 import { RiShieldKeyholeFill } from "react-icons/ri";
+import { FaUserShield, FaChalkboardTeacher } from 'react-icons/fa';
 import './VIPProtection.css';
 
 const VIPProtection = () => {
@@ -120,7 +121,10 @@ const VIPProtection = () => {
           <h2>Elite Protection Team Qualifications</h2>
           <div className="qualifications-grid">
             <div className="qualification-card">
-              <h3>Training</h3>
+              <div className="qualification-header">
+                <FaChalkboardTeacher className="qualification-icon" />
+                <h3>Training</h3>
+              </div>
               <ul>
                 <li>Advanced defensive driving</li>
                 <li>Counter-surveillance techniques</li>
@@ -129,7 +133,10 @@ const VIPProtection = () => {
               </ul>
             </div>
             <div className="qualification-card">
-              <h3>Experience</h3>
+              <div className="qualification-header">
+                <FaUserShield className="qualification-icon" />
+                <h3>Experience</h3>
+              </div>
               <ul>
                 <li>Minimum 10 years in high-risk protection</li>
                 <li>Government/military backgrounds</li>

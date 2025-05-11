@@ -73,23 +73,62 @@ body {
 }
 
 /* Components Section */
+.section-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #2c3e50;
+}
 .components-section {
     padding: 40px 20px;
 }
 
-.components-grid {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
+.components-grid,
+.levels-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
-.component-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 20px;
-    width: 300px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.component-card 
+.level-card {
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+.component-card:hover,
+.level-card:hover {
+    transform: translateY(-5px);
+}
+
+.component-title,
+.level-title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #34495e;
+}
+.level-title.residential {
+    color: #27ae60;
+}
+.level-title.commercial {
+    color: #e67e22;
+}
+.level-title.high-security {
+    color: #c0392b
+}
+.component-list,
+.level-list {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    color: #555;
+}
+.level-voltage {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #2c3e50;
 }
 
 /* Security Levels Section */
@@ -141,18 +180,38 @@ body {
 
 /* Compliance Section */
 .compliance-section {
-    background-color: #f8f9fa;
-    padding: 40px 20px;
+    background-color: #f8f9fb;
+    padding: 3rem 1.5rem;
+    border-radius: 12px;
+    margin: 3rem 0;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
 }
 
-.compliance-content ul {
+.compliance-content  {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.compliance-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #2c3e50;
+}
+.compliance-list {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
-.compliance-content ul li {
-    font-size: 16px;
-    margin-bottom: 10px;
+.compliance-list li {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #555;
+    justify-content: center;
 }
 
 /* CTA Section */
