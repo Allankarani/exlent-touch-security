@@ -24,7 +24,7 @@ const Navbar = () => {
           <div className="contact-box">
             <div>
               <strong>MAIL US</strong>
-              <p>info@etss.com</p>
+              <p>security@etss.co.ke</p>
             </div>
           </div>
         </div>

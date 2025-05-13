@@ -11,7 +11,7 @@ const Investigations = () => {
           <p>Discreet, thorough, and legally compliant solutions for complex situations</p>
           <button 
             className="cta-button"
-            onClick={() => window.location.href = '/contact'}
+            onClick={() => window.location.href = '/contacts'}
           >
             Request Confidential Consultation
           </button>

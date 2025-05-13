@@ -1,4 +1,3 @@
-
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HeaderTop from './components/HeaderTop';
 import Navbar from './components/Navbar/Navbar';
@@ -9,6 +8,7 @@ import GuardDogs from "./pages/GuardDogs";
 import About from "./components/About";
 import Home from "./components/Home";
 import Contacts from "./components/Contacts";
+import ThankYou from './pages/ThankYou';
 import IndustrialSecurity from "./pages/IndustrialSecurity";
 import SecurityGuarding from "./pages/services/SecurityGuarding";
 import RoamingGuards from "./pages/services/RoamingGuards";
@@ -32,6 +32,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/About" element={<About />} />
                 <Route path="/Contacts" element={<Contacts />} />
+                <Route path="/thank-you" element={<ThankYou />} /> 
                 <Route path="/services/security-guarding" element={<SecurityGuarding />} />
                 <Route path="/services/roaming-guards" element={<RoamingGuards />} />
                 <Route path="/services/car-park-guarding" element={<CarParkGuarding />} />

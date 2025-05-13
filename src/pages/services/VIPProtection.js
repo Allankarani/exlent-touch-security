@@ -21,7 +21,7 @@ const VIPProtection = () => {
           </p>
           <button 
             className="cta-button elite"
-            onClick={() => window.location.href = '/contact'}
+            onClick={() => window.location.href = '/contacts'}
           >
             Schedule a Confidential Consultation
           </button>

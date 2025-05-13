@@ -15,7 +15,7 @@ const ElectricFence = () => {
           <p>Advanced perimeter protection that deters intruders with non-lethal pulses</p>
           <button 
             className="cta-button"
-            onClick={() => window.location.href = '/contact'}
+            onClick={() => window.location.href = '/contacts'}
           >
             Get a Free Site Assessment
           </button>

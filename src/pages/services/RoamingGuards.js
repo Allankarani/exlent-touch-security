@@ -10,7 +10,7 @@ const RoamingGuards = () => {
 
                     <button
                      className="cta-button"
-                     onClick={() => window.location.href = '/contact'}
+                     onClick={() => window.location.href = '/contacts'}
                     >
                         Schedule a Risk Assessment
 

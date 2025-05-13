@@ -11,7 +11,7 @@ const Alarmresponse = () => {
           <p>Professional threat detection and response for your home or business</p>
           <button 
             className="cta-button"
-            onClick={() => window.location.href = '/contact'}
+            onClick={() => window.location.href = '/contacts'}
           >
             Start Your Monitoring Today
           </button>

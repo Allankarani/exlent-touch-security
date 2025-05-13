@@ -1,0 +1,16 @@
+.thank-you-page {
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.thank-you-page h1 {
+    color: #cc0000;
+    margin-bottom: 10px;
+}
+.thank-you-page p {
+    font-size: 18px;
+    line-height: 1.6;
+}

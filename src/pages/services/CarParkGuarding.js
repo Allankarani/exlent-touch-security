@@ -6,7 +6,7 @@ const CarParkGuarding = () => {
   const navigate = useNavigate();
 
   const handleContactClick = () => {
-    navigate('/contact');
+    navigate('/contacts');
   };
 
   return (

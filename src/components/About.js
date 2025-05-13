@@ -21,7 +21,7 @@ const About = () => {
                 <div className="hero-content">
                     <h1>About Exlent Touch Security Services</h1>
                     <p>Your Peace of Mind, Our Delivered Promise</p>
-                    <button className="cta-button" onClick={() => navigate('/contact')}>
+                    <button className="cta-button" onClick={() => navigate('/contacts')}>
                         Request Security Audit
                     </button>
                 </div>

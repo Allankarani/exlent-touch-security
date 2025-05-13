@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Hero.css';
 import securityGuardImage from '../assets/background-image.png';
-
+import { useNavigate } from 'react-router-dom';
 const Hero = () => {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({ name: '', email: '' });
 
   const handleChange = (e) => {
@@ -13,11 +15,28 @@ const Hero = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log('Form submitted:', formData);
-    // You can integrate this with your backend here
-  };
+ const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  try {
+    const response = await fetch('http://localhost:5000/api/send-quote', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json'},
+      body: JSON.stringify(formData)
+    });
+
+    if (response.ok) {
+      navigate('/thank-you');
+    } else {
+      const errorData = await response.json();
+      console.error('Server error:', errorData.message);
+      alert('Something went wrong. Please try again later.');
+    }
+  } catch (error) {
+    console.error('Network error:', error);
+    alert('Unable to connect. Please check your internet connection')
+  }
+ };
 
   return (
     <section className="security-hero">
@@ -33,7 +52,9 @@ const Hero = () => {
             <div className="hero-text">
               <h1>Comprehensive<br />Security Services</h1>
               <p>Professional Protection for your Business</p>
-              <button className="get-started-btn">Get Started</button>
+              <Link to="/contacts">
+                <button className="get-started-btn">Get started</button>
+              </Link>
             </div>
 
             <div className="quote-container">

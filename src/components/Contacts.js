@@ -90,9 +90,13 @@ const ContactForm = () => {
               aria-label="Interest Category"
             >
               <option value="">Select an option</option>
-              <option value="sales">Sales</option>
-              <option value="support">Support</option>
-              <option value="partnership">Partnership</option>
+              <option value="residential">Residential Security Services</option>
+              <option value="commercial">Commercial Security Services</option>
+              <option value="event">Event Security</option>
+              <option value="cctv">CCTV Installation</option>
+              <option value="alarm">Alarm System Installation</option>
+              <option value="support">Technical Support</option>
+              <option value="partnership">Partnership Inquiry</option>
               <option value="other">Other</option>
             </select>
           </div>

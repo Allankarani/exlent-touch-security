@@ -10,7 +10,7 @@ const AccessControl = () => {
                     <p>Secure your premises with intelligent entry management solutions</p>
                     <button
                      className="cta-button"
-                     onClick={() => window.location.href = '/contact'}
+                     onClick={() => window.location.href = '/contacts'}
                     
                     >
                         Get a System Demo

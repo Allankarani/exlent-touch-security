@@ -9,7 +9,7 @@ const SecurityAudit = () => {
                     <p>Identify vulnerabilties before they become security breaches</p>
                     <button
                      className="cta-button"
-                     onClick={() => window.location.href = '/contact'}
+                     onClick={() => window.location.href = '/contacts'}
                     
                     >
                         Schedule Your Audit

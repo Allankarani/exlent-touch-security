@@ -11,7 +11,7 @@ const RetailAccreditation = () => {
           <p>Meeting industry standards for loss prevention and asset protection</p>
           <button 
             className="cta-button"
-            onClick={() => window.location.href = '/contact'}
+            onClick={() => window.location.href = '/contacts'}
           >
             Get Your Store Accredited
           </button>
