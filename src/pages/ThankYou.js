@@ -1,11 +1,20 @@
 import React from 'react';
-import './ThankYou.css';
+import { Link } from 'react-router-dom';
+import "./ThankYou.css";
 
-const ThankYou = () => (
-  <div className="thank-you-page">
-    <h1>Thank you for your request!</h1>
-    <p>We have received your information and will contact you shortly.</p>
-  </div>
-);
+const ThankYou = () => {
+  return (
+    <div className="thankyou-container">
+      <h1 className="thankyou-title">Thank You!</h1>
+      <p className="thankyou-message">
+        Your request has been received . Our sales team will contact you shortly.
+      </p>
+      <Link to="/" className="thankyou-button">
+        Return Home
+      </Link>
+
+    </div>
+  );
+};
 
 export default ThankYou;

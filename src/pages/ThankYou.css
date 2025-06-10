@@ -1,16 +1,58 @@
-.thank-you-page {
+.thankyou-container {
+    background-color: #061d42;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    color: white;
+}
+.thankyou-box {
+    background-color: white;
+    color: #061d42;
+    padding: 2rem 3rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
     text-align: center;
-    margin-top: 100px;
-    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+}
+.thankyou-title {
+    font-size: 2.5rem;
+    color: #850101;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+.thankyou-message {
+    font-size: 1.2rem;
     color: #333;
-    font-family: Arial, sans-serif;
+    margin-bottom: 2rem;
 }
-
-.thank-you-page h1 {
-    color: #cc0000;
-    margin-bottom: 10px;
+.thankyou-button {
+    background-color: #850101;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
 }
-.thank-you-page p {
-    font-size: 18px;
-    line-height: 1.6;
+.thankyou-button:hover {
+    background-color: #5f0101;
+}
+@media (max-width: 600px) {
+    .thank-you-card {
+        padding: 30px 20px;
+    }
+    .thank-you-card h1 {
+        font-size: 1.6rem;
+    }
+    .thank-you-card p {
+        font-size: 1rem;
+    }
+    .home-button {
+        padding: 10px 20px;
+        font-size: 0.95rem;
+    }
 }
